@@ -48,6 +48,7 @@ export default function App() {
     )
     setNumArr(holdArr)
   }
+
   const numElements = numArr.map((num) => (
     <Num
       className={num.isHeld ? 'isHeld' : ''}
